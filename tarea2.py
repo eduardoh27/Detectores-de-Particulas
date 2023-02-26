@@ -11,10 +11,6 @@ def main():
     y = df['dE/dx(MeV/mm)'].tolist()
     x = df['Energy(MeV)'].tolist()
 
-        
-    
-
-
     #popt = scipyExponential1(y, x)
 
     #calculoNumerico(popt)
@@ -45,7 +41,7 @@ def calculoNumerico(popt):
     print(f"El alcance R del protón de 100 MeV en un cristal de Silicio = {Xnueva} mm")
 
 
-#def scipyExponential1(ydata, xdata):
+def scipyExponential1(ydata, xdata):
     
     """
     xdata = np.linspace(0, 4, 50)
